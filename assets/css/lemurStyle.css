@@ -1,0 +1,170 @@
+/* Start: Style HEADER & MENU */
+#pageHeader {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.h1 {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  color: #342628;
+
+}
+
+/* Style buttons */
+.btn {
+
+  background-color: #f7f4ef;
+  /* background */
+  border: none;
+  /* Remove borders */
+  color: #788402;
+  /* text */
+  padding: 60% 100%;
+  /* Some padding to adjust placement*/
+  font-size: 200%;
+  /* Set a font size */
+  cursor: pointer;
+  /* Mouse pointer on hover */
+}
+
+/* Style dropdown hamburger menu */
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  border-radius: 7px;
+  position: absolute;
+  width: 350%;
+  overflow: auto;
+  box-shadow: 0px 0px 10px 0px rgba(34, 26, 28, 1);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  color: #342628;
+  padding: 1px;
+  text-align: center;
+  background-color: #f7f4ef;
+
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #feaa00;
+}
+
+/* End: Style HEADER & dropodown MENU */
+
+/* Start: Style  PAGE FOOTER */
+#pageFooter {
+  border: 0px solid red;
+  border-radius: 15px;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #feaa00;
+  background-color: black;
+}
+
+/* End: Style  PAGE FOOTER */
+
+
+/* Start: Style  ACCORDION */
+
+/* Style the buttons that are used to open the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+
+}
+
+/* Add a background color to the button 
+if it is clicked on (add the .active class with JS), 
+and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+
+}
+
+/* End: Style  ACCORDION */
+
+
+/* Start: Style  CHILD ACCORDION */
+
+.childbtn {
+
+  background-color: #f7f4ef;
+  /* background */
+  border: none;
+  /* Remove borders */
+  color: #342628;
+  /* text */
+  padding: 8px 18px;
+  /* Some padding for drop down box size*/
+  font-size: 90%;
+  /* Set a font size */
+  cursor: pointer;
+  /* Mouse pointer on hover */
+  width: 100%;
+  text-align: left;
+
+}
+
+.egimg {
+  border-radius: 5%;
+  height: 200px;
+}
+
+.example {
+  height: 200px;
+
+}
+
+
+li {
+  padding: 2px 18px;
+  /* Some padding for drop down box size*/
+
+}
+
+li div {
+  display: none;
+
+}
+
+li:hover div {
+  /* Animations can't be used with 'display'. 
+  'transition: .4s ease-out;' will do nothing */
+  display: block;
+
+}
+
+/* End: Style  CHILD ACCORDION */

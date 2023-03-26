@@ -1,0 +1,235 @@
+/* This is a commwnt */
+body {
+  background-color: ivory;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+h1 {
+  color: blue;
+  background-color: darkseagreen;
+  font-size: 200%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 175%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  color: blue;
+  font-size: 175%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: white;
+  background-color: black;
+  font-size: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+table,
+th,
+td {
+  border: 1px solid blue;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: blue;
+  color: white;
+  height: 70px;
+  text-align: right;
+  vertical-align: middle;
+}
+
+td {
+  height: 50px;
+  vertical-align: bottom;
+}
+
+.highlight {
+  background-color: blue;
+  color: white;
+}
+
+.highlight p {
+  background-color: green;
+  color: black;
+}
+
+#pageHeader {
+  background-color: darkseagreen;
+  color: black;
+  text-align: center;
+}
+
+.imgStyle1 {
+  border-radius: 20%;
+  border: 10px solid green;
+  opacity: .5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgStyle2 {
+  border-radius: 50%;
+  border: 20px double red;
+  filter: grayscale(70%);
+  float: left;
+}
+
+.imgStyle3 {
+  border: 5px;
+  float: right;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.imgStyle4 {
+  border-radius: 20%;
+  border: 10px solid green;
+  opacity: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styles a horizonal navigation bar */
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  padding: 5px 5px;
+  text-decoration: none;
+  background-color: lightblue;
+  color: black;
+}
+
+.nav li a:hover {
+  background-color: black;
+  color: white;
+}
+
+#active {
+  background-color: navy;
+  color: white;
+}
+
+.column {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column.side {
+  width: 25%;
+}
+
+.column.middle {
+  width: 50%;
+}
+
+
+.column.full {
+  width: 100%;
+}
+
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+.button {
+  border: none;
+  color: ivory;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: darkseagreen;
+  /* Green */
+}
+
+.btn {
+
+  background-color: ivory;
+  /* background */
+  border: none;
+  /* Remove borders */
+  color: ivory;
+  /* text */
+  padding: 60% 50%;
+  /* Some padding for drop down box size*/
+  font-size: 200%;
+  /* Set a font size */
+  cursor: pointer;
+  /* Mouse pointer on hover */
+}
+
+/* Style dropdown menu */
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 300%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  color: green;
+  padding: 1px;
+  text-align: center;
+  background-color: white;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: orange;
+}
+
+#pageFooter {
+  border: 0px solid red;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  background-color: lightseagreen;
+}

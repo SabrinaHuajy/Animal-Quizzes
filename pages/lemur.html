@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="/assets/css/lemurStyle.css">
+  <title>Lemur</title>
+
+  <meta name="description" content="LemurPage">
+  <meta name="keywords" content="Guinea pig, dog, lemur,cat">
+
+
+  <!-- Add font family that includes a hamburger icon for the menu button -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+
+  </style>
+</head>
+
+<!-- Layout is for a smaller screen, so center it and limit the width on a wide-screen device -->
+
+<body id="start" style="background-color: #f7f4ef; padding: 50px; max-width: 1000px; margin: 0 auto;">
+
+  <!-- Pale= #f7f4ef  Orange: #feaa00  Green: #788402   Dark: #342628 -->
+
+  <!-- Top header menu containing logo and Navigation bar -->
+
+  <header>             
+    <div id="pageHeader" style="border: 2px solid #feaa00; border-radius: 7px; background: #f7f4ef;">
+      <div style="display: flex;">
+
+
+        <!-- Navigation Menu -->
+
+        <div style="width: 20%; border: 0px solid red; background-color: #f7f4ef; border-radius: 7px;">
+          <div class="dropdown">
+            <button class="btn" style="border-radius: 7px; background: #f7f4ef; vertical-align: middle;"><i
+                class="fa fa-bars" style="line-height: 30px;"></i></button>
+
+            <div class="dropdown-content">
+              <!-- hyperlinks (href's) and pet descriptions TBC -->
+
+              <a rel="noopener" href="/pages/guineapig.html">Guinea pig</a>
+              <a rel="noopener" href="/pages/dog.html">Dog</a>
+              <a rel="noopener" href="/pages/cat.html">Cat</a>
+              <a rel="noopener" href="/index.html">Home Page</a>
+
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Site logo/name -->
+        <div style="width: 80%; border: 0px solid blue; border-radius: 15px; background: #f7f4ef;">
+          <h1 class=h1>
+            Lemur</h1>
+
+          <!-- line-hight is the same as your div height -->
+
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- End of Header -->
+
+
+  <p>Maybe you live in a pet-free home. If so, then shame on you! But when your circumstances change then, naturally,
+    you’ll want a very special pet.
+  </p>
+  <p>This cute fellow is about the same size as a common cat or a small yappy dog, and you'll be the talk of the
+    neighbourhood if you adopt one.
+  </p>
+
+  <img class="egimg" src="/assets/images/LemurGeneral1.jpg" style="width: 100%; max-width: 400px; height: auto;"
+    alt="Lemur in the wild">
+
+  <br>
+  <p>Discover more about this magical creature by answering these four questions:
+
+  </p>
+
+  <form name="lemur1">
+
+    <p> Q1. It’s scientific name is <em><strong>Daubentonia madagascariensis</strong></em> but what do you think it’s
+      more common name might be?
+    </p>
+    <div id="Q1A1">
+      <p>
+        <input type="radio" name="LemurQ1" value="Q1Answer1"> hay-hay <br>
+        <input type="radio" name="LemurQ1" value="Q1Answer2"> aye-hay <br>
+        <input type="radio" name="LemurQ1" value="Q1Answer3"> hay-aye <br>
+        <input type="radio" name="LemurQ1" value="Q1Answer4"> aye-aye <br>
+        <input type="radio" name="LemurQ1" value="Q1Answer5"> none of these <br>
+    </div>
+
+    <p class="accordion" onclick="checkQ1()">Check my answer</p>
+
+    <div id="panelQ1"
+      style="border: 2px solid #feaa00; border-radius: 7px; padding: 0 21px; background-color: white; display: none;">
+      <p>
+        A1. It’s commonly called an aye-aye.</p>
+      <p>It’s not clear how the aye-aye got its name. It is possible that it originated with the local people who use
+        "heh heh" to refer to "He-Who-Must-Not-Be-Named" - A feared magical creature.
+      </p>
+    </div>
+  </form>
+
+  <br>
+  <form name="lemur2">
+    <p>Q2. What has captured people's interest (select any that apply)?
+    </p>
+    <div id="Q2A2">
+      <p>
+        <input type="checkbox" name="LemurQ2" value="Q2Answer1"> A bushy tail <br>
+        <input type="checkbox" name="LemurQ2" value="Q2Answer2"> Large ears <br>
+        <input type="checkbox" name="LemurQ2" value="Q2Answer3"> Claws instead of nails <br>
+        <input type="checkbox" name="LemurQ2" value="Q2Answer4"> Nocternal <br>
+        <input type="checkbox" name="LemurQ2" value="Q2Answer5"> A wet nose <br>
+        <input type="checkbox" name="LemurQ2" value="Q2Answer6"> Weird hands <br>
+        <input type="checkbox" name="LemurQ2" value="Q2Answer7"> Strange nipples <br>
+        <input type="checkbox" name="LemurQ2" value="Q2Answer8"> Unusual teeth <br>
+        <input type="checkbox" name="LemurQ2" value="Q2Answer9"> None of these <br>
+      </p>
+    </div>
+
+
+    <p class="accordion" onclick="checkQ2()">Check my answer</p>
+
+
+    <div id="panelQ2"
+      style="border: 2px solid #feaa00; border-radius: 7px; padding: 0 21px; background-color: white;  display: none;">
+      <p>
+        A2. All the above!</p>
+      <p>It's hard to believe that, like the apes and monkeys, the aye-aye is a close relative of ours. The aye-aye:</p>
+
+
+      <ul>
+        <li> <button class=childbtn>has a fox's long bushy tail</button>
+
+          <div class="example">
+            <img class="egimg" src="/assets/images/LemurTail1.jpg" alt="Image of way-way showing tail">
+
+          </div>
+        </li>
+
+
+        <li> <button class=childbtn>has large ears like a bat</button>
+
+          <div class="example">
+            <img class="egimg" src="/assets/images/LemurEars1.jpg" alt="Image of way-way ears">
+
+          </div>
+        </li>
+
+
+        <li> <button class=childbtn>Goes looking for food when most of the shops are shut
+          </button>
+
+          <div class="example">
+            <img class="egimg" src="/assets/images/LemurNocternal1.jpg" alt="Image of night forest">
+
+          </div>
+        </li>
+
+
+        <li> <button class=childbtn>has a wet nose like a dog
+          </button>
+
+          <div class="example">
+            <img class="egimg" src="/assets/images/LemurWetNose2.jpg" alt="Image of aye-aye with shiny nose">
+
+          </div>
+        </li>
+
+
+        <li> <button class=childbtn>has nipples on its tummy like goats and sheep
+          </button>
+
+          <div class="example">
+            <img class="egimg" src="/assets/images/LemurNipples1.jpg" alt="Image of aye-aye groin area">
+
+          </div>
+        </li>
+
+
+        <li> <button class=childbtn>has a hamster's front teeth that never stop growing
+          </button>
+
+          <div class="example">
+            <img class="egimg" src="/assets/images/LemurTeeth1.jpg" alt="Image of aye-aye teeth">
+
+          </div>
+        </li>
+
+        <li> <button class=childbtn>But, above all, the aye-aye has very long and very strange fingers
+          </button>
+
+          <div class="example">
+            <img class="egimg" src="/assets/images/LemurFinger1.jpg" alt="Image of way-way hand">
+
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </form>
+
+
+  <br>
+  <form name="lemur3">
+    <p>
+      Q3. So what might this animal do with that skinny middle finger and claw (select any that apply)?
+    </p>
+
+    <div id="Q4A4">
+      <p>
+        <input type="checkbox" name="LemurQ3" value="Q3Answer1"> Cracks the knuckles loudly <br>
+        <input type="checkbox" name="LemurQ3" value="Q3Answer2"> Digs out and flicks earwax at passers by <br>
+        <input type="checkbox" name="LemurQ3" value="Q3Answer3"> Picks its nose and eats the bogies <br>
+        <input type="checkbox" name="LemurQ3" value="Q3Answer4"> Cleans out its belly button fluff <br>
+        <input type="checkbox" name="LemurQ3" value="Q3Answer5"> Combs the stray hair from its bushy tail and leaves the
+        hair stuck to the wall in the shower <br>
+        <input type="checkbox" name="LemurQ3" value="Q3Answer6"> Taps on tree trunks to find maggots to eat <br>
+    </div>
+
+    <img class="egimg" src="/assets/images/LemurFingerEars.jpg" style="width: 100%; max-width: 400px; height: auto;"
+      alt="Image of way-way hand">
+
+    <p class="accordion" onclick="checkQ3()">Check my answer</p>
+
+    <div id=panelQ3
+      style="border: 2px solid #feaa00; border-radius: 7px; padding: 0 21px; background-color: white;  display: none;">
+      <p>
+        A3. If you guessed at the obvious answer, that it uses it’s finger to hunt for food, then you guessed right.
+      <p>However, it’s recently been discovered that it also uses the finger to pick its nose!</p>
+
+      <div>
+        <video style="width: 100%; max-width: 400px; height:auto;" width="100%" controls>
+          <source src="https://img-9gag-fun.9cache.com/photo/aREApxB_460svvp9.webm">
+        </video>
+      </div>
+
+      <p> The discovery has triggered a wave of speculation about why so many of us primates,
+        like the aye-aye, should get the urge to pick our nose.
+      </p>
+    </div>
+  </form>
+
+  <br>
+  <form name="lemur4">
+    Q4. Why do you pick your nose?
+    <div id="Q4A4">
+      <p>
+        <input type="radio" name="LemurQ4" value="Q4Answer1"> Dry mucus is itchy <br>
+        <input type="radio" name="LemurQ4" value="Q4Answer2"> It moves useful microbes from one place to another <br>
+        <input type="radio" name="LemurQ4" value="Q4Answer3"> It helps my immune system <br>
+        <input type="radio" name="LemurQ4" value="Q4Answer4"> Bogies taste nice <br>
+        <input type="radio" name="LemurQ4" value="Q4Answer5"> I don't pick my nose <br>
+    </div>
+
+    <p class="accordion" onclick="checkQ4()">Check my answer</p>
+
+
+    <div id="panelQ4"
+      style="border: 2px solid #feaa00; border-radius: 7px; padding: 0 21px; background-color: white;  display: none;">
+      <p>Admit it! We all do it. Teenagers pick their noses on average four times a day.
+      </p>
+      <p>These days we tend to think of nose-picking as a bad habit.
+        The behaviour is discouraged and not talked about in polite company.
+      </p>
+      <p>However, the behaviour is also widespread among us primates,
+        so it is likely that there is some evolutionary advantage to be gained.
+      </p>
+      <p>
+        Perhaps we should *encourage* everyone to pick their nose and eat it!
+      </p>
+    </div>
+  </form>
+
+
+  <br>
+
+  <p>
+    Q5. <span style="color: red;"> BONUS</span> QUESTION!
+  </p>
+  <P>
+    Not all aye-aye are as cute as the bright-eyed young A-listers we've pictured above.
+    There comes a time when
+    an aye-aye grows older and starts looking forward to retirement. Maybe you'll need to
+    choose a new retirement name for the aye-aye.
+  </P>
+  <img class="egimg" src="/assets/images/LemurDobbyYodaGollum.jpg" style="width: 100%; max-width: 400px; height: auto;"
+    alt="Older aye aye">
+
+
+  <div id="addName">
+    <p> Suggestions have included Yoda, Gollum, and Dobby. But what might you call this aye-aye?
+    </p>
+  </div>
+
+
+  <input type="text" id="lemurNameQ5" size="30" placeholder="Suggest a name">
+  <br>
+  <p class="accordion" onclick="checkQ5()"> Check my answer </p>
+
+  <div class="panel">
+
+    Thank you for your suggestion. That's the end of the questions.
+
+  </div>
+
+
+
+  <br><br>
+  Maybe you’re now looking forward to having a aye-aye as your new pet.
+  The aye-aye:
+  <ul>
+    <li>will divert attention away from your own particularly disgusting habits</li>
+    <li>can be blamed for all the yuk around the house</li>
+    <li>and it might just help you to stumble on a ground-breaking discovery about snot!</li>
+  </ul>
+
+
+  <p>
+    However, it seems that aye-ayes are endangered. They’re somewhat rare and really, really they are not suitable as
+    pets. Such a pity!
+  </p>
+  <p>
+
+    <br>
+  <div>
+    <p>
+      Thanks to you for doing the quiz, There’s more to discover about the aye-aye. Here are a couple of links to get
+      you started (Links will open in a new tab):
+    </p>
+  </div>
+
+  <div>
+    <p>
+      <a href="https://www.nhm.ac.uk/discover/news/2022/october/aye-aye-recorded-picking-nose-eating-snot-first-time.html"
+        target="_blank">https://www.nhm.ac.uk/discover/news/2022/october/aye-aye-recorded-picking-nose-eating-snot-first-time.html</a>;
+    </p>
+    <p>
+      <a href="https://www.youtube.com/watch?v=AXHXJjxPX0Q"
+        target="_blank">https://www.youtube.com/watch?v=AXHXJjxPX0Q</a>
+    </p>
+  </div>
+
+  <div>
+    <p>
+      Credit for the Hero Image "Wild aye-aye in a tree":<br>
+      Image from Wikipedia: <a href="https://commons.wikimedia.org/w/index.php?curid=42890351"
+        target="_blank">https://commons.wikimedia.org/w/index.php?curid=42890351</a>
+      By nomis-simon
+    </p>
+    <p>Shamefully, all other images were simply plundered from wherever they could be found.</p>
+  </div>
+
+
+  <!-- Button to refresh the page -->
+  <a href="/pages/lemur.html">
+    <button class="accordion">Refresh this page
+    </button>
+  </a>
+
+  <!-- Footer containing sitemap and authors, -->
+
+  <footer>             
+    <div id="pageFooter">
+      <div style="display: flex;">
+
+        <!-- Site map -->
+        <div
+          style="width: 50%; padding:2% 10%; color: #feaa00; border-top-left-radius: 20px; border-bottom-left-radius: 20px;  border: 1px solid white;">
+          <div>
+            <a style="color: #feaa00; text-align: center; font-size: 100%">SITEMAP:</a>
+            <nav style="color: #feaa00;">
+              <ul>
+                <!-- hyperlinks (href's) and pet descriptions TBC -->
+                <li><a style="text-decoration: none; color: #feaa00;" href="/index.html">Home</a> </li>
+                <li><a style="text-decoration: none; color: #feaa00;" href="/pages/lemur.html">Lemur</a></li>
+                <li><a style="text-decoration: none; color: #feaa00;" href="/pages/guineapig.html">Guinea Pig</a></li>
+                <li><a style="text-decoration: none; color: #feaa00;" href="/pages/dog.html">Dog</a></li>
+                <li><a style="text-decoration: none; color: #feaa00;" href="/pages/cat.html">Cat</a></li>
+
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <!-- Authors -->
+        <div
+          style="width: 50%; padding:2% 10%; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border: 1px solid white;">
+          <div>
+            <br>
+            <p>
+              Website authored by:
+              <br>(in alphabetical order)<br>
+              Emma, Jingyu (AKA Sabrina), Keith, Peter
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- End of code for footer -->
+
+
+
+
+  <script src="/assets/js/lemurScript.js"></script>
+
+
+</body>
+
+</html>
