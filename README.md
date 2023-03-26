@@ -12,3 +12,34 @@ Three of us have written about our actual pets. The fourth is “between pets”
 Do enjoy reading about them and trying the pet quizzes.
 
 Link to the deployed website: https://sabrinahuajy.github.io/Animal-Quizzes/
+
+
+# Animal-Quizzes
+MIT<br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Description 
+         Website for you to enjoy reading the fun facts of animals and trying the animal quizzes.
+## Table of contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributors](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+## Installation
+            A compatible browser and internet connection are required.
+## Usage 
+            Click open the deployed webpage.
+## License
+            MIT
+            
+## Contributions
+            Big thanks to my teammates Emma, Keith and Peter.
+## Tests
+            To be tested manually
+## Questions
+    For questions regarding this application please contact me at:
+        - E-mail: j.hua@york.ac.uk
+        - Github:
+        <https://github.com/SabrinaHuajy>
+        
