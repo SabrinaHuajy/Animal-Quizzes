@@ -13,8 +13,6 @@ Do enjoy reading about them and trying the pet quizzes.
 
 Link to the deployed website: https://sabrinahuajy.github.io/Animal-Quizzes/
 
-
-# Animal-Quizzes
 MIT<br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description 
          Website for you to enjoy reading the fun facts of animals and trying the animal quizzes.
